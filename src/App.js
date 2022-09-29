@@ -20,8 +20,9 @@ function App() {
   ];
 
   const addExpenseHandler = (expense) => {
-    const finalData = { ...expense };
-    console.log(finalData);
+    // const finalData = { ...expense };
+    // console.log(finalData);
+    console.log(expense);
   };
 
   return (
