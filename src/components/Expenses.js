@@ -1,5 +1,5 @@
 import ExpenseItem from "./ExpenseItem";
-import ExpensesFilter from "./NewExpense/ExpensesFilter";
+import ExpensesFilter from "./NewExpense/ExpensesFilter.js";
 import Card from "./Card";
 import "./Expenses.css";
 
