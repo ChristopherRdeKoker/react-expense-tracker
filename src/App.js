@@ -19,7 +19,7 @@ const DUMMY_EXPENSES = [
   },
 ];
 
-function App() {
+const App = () => {
   const [expenses, setExpenses] = useState(DUMMY_EXPENSES);
   const addExpenseHandler = (expense) => {
     setExpenses((prevExpenses) => {
@@ -33,6 +33,6 @@ function App() {
       <Expenses items={expenses} />
     </div>
   );
-}
+};
 
 export default App;
